@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>スキルと経験 - My Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 <body>
     <header>
@@ -26,24 +26,37 @@
         </section>
         <section id="tech-stack">
             <h2>技術スタック</h2>
-            <div id="tech-icons"></div>
+            <div id="frontend-icons-area">
+                <h3>フロントエンド</h3>
+                    <div class="icon-grid"></div>
+            </div>
+            <div id="backend-icons-area">
+                <h3>バックエンド</h3>
+                    <div class="icon-grid"></div>
+            </div>
+            <div id="infra-icons-area">
+                <h3>インフラ</h3>
+                    <div class="icon-grid"></div>
+            </div>
         </section>
         <section id="experience">
             <h2>開発経験</h2>
             <div class="experience-content">
                 <div class="frontend-experience">
                     <h3>フロントエンド開発</h3>
-                    <p>モダンなJavaScriptフレームワーク（React, Vue.js）を使用した複数のWebアプリケーション開発プロジェクトに携わりました。レスポンシブデザインの実装やパフォーマンス最適化に注力し、ユーザー体験の向上に貢献しました。また、TypeScriptを用いた大規模アプリケーションの開発経験もあります。</p>
+                    <p>HTMLやCSS、Javascriptを用いた開発に取り組みました。フレームワークのところでは、Reactでアプリケーションの開発に取り組みました。インターンシップではSlimを用いてフロントの部分の開発にも取り組みました。
+                    </p>
                 </div>
                 <div class="backend-experience">
                     <h3>バックエンド開発</h3>
-                    <p>Node.jsとExpressを使用したRESTful APIの設計と実装、データベース設計（PostgreSQL, MongoDB）、認証システムの実装などを行いました。また、マイクロサービスアーキテクチャを採用したプロジェクトでの開発経験もあり、Docker, Kubernetes を用いたデプロイメントも経験しています。</p>
+                    <p>個人開発やインターンシップ、研究を通じてRuby, Rails, PHP, Pythonを学習してきました。
+                    </p>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Ryu. All rights reserved.</p>
     </footer>
 
     <script src="javascript/main.js"></script>
