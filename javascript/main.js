@@ -1,40 +1,9 @@
-// プロジェクトデータ
-// const projects = [
-//     {
-//         id: 1,
-//         title: "ハンバーガー屋運営アプリ",
-//         description: "HTML,CSS,Javascriptで作成したアプリケーション",
-//         image: "images/projects/ecommerce.jpg",
-//         technologies: ["HTML", "CSS", "Javascript"],
-//         date: "2022-06-15",
-//         link: "project-details.html?id=1"
-//     },
-//     {
-//         id: 2,
-//         title: "ファイナンシャルプランナー向けマッチング・予約サービス",
-//         description: "お金に関する相談がしたいユーザーとファイナンシャルプランナーをマッチングするサービス",
-//         image: "images/projects/portfolio.jpg",
-//         technologies: ["Ruby", "Ruby on Rails", "Javascript"],
-//         date: "2023-08-01",
-//         link: "project-details.html?id=2"
-//     },
-//     {
-//         id: 3,
-//         title: "郵便番号データ取得API&デモアプリ",
-//         description: "GOを用いたapiアプリケーション",
-//         image: "images/projects/weather-app.jpg",
-//         technologies: ["HTML", "CSS", "Javascript", "GO"],
-//         date: "2024-4-20",
-//         link: "project-details.html?id=3"
-//     }
-// ];
-
 const projects = [
     {
         id: 1,
         title: "ハンバーガー屋運営アプリ",
         description: "HTML,CSS,Javascriptで作成したアプリケーション",
-        image: "images/projects/ecommerce.jpg",
+        image: "../media/make-burger.png",
         technologies: ["HTML", "CSS", "Javascript"],
         date: "2022-06-15",
         link: "project-details.html?id=1",
@@ -50,7 +19,7 @@ const projects = [
         id: 2,
         title: "ファイナンシャルプランナー向けマッチング・予約サービス",
         description: "お金に関する相談がしたいユーザーとファイナンシャルプランナーをマッチングするサービス",
-        image: "images/projects/portfolio.jpg",
+        image: "../media/fp-app.png",
         technologies: ["Ruby", "Ruby on Rails", "Javascript"],
         date: "2023-08-01",
         link: "project-details.html?id=2",
@@ -66,7 +35,7 @@ const projects = [
         id: 3,
         title: "郵便番号データ取得API&デモアプリ",
         description: "GOを用いたapiアプリケーション",
-        image: "images/projects/weather-app.jpg",
+        image: "../media/go-api.png",
         technologies: ["HTML", "CSS", "Javascript", "GO"],
         date: "2024-4-20",
         link: "project-details.html?id=3",
@@ -82,7 +51,7 @@ const projects = [
         id: 4,
         title: "グループチャットシステム",
         description: "TCP,UDPを用いたチャットシステム",
-        image: "images/projects/weather-app.jpg",
+        image: "../media/oncline-chat-messanger.png",
         technologies: ["Python"],
         date: "2024-3-10",
         link: "project-details.html?id=3",
